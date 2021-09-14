@@ -1,0 +1,263 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">WebMailHostopiaRegressionTest</td><td class="numi">1</td><td class="numi">1</td><td class="numi_attn">31</td><td class="numi">0</td><td class="numi">117.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">WebMailHostopiaRegressionTest &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="31">com.webmailhostopia.tests.WebMailHostpiaRegressionTests</td><td><a href="#m1"><b>labelsLanguageTestInPreferenceACcountSecurityTab</b> (Regression) </a></td><td class="numi">1</td><td>1533661106724</td><td class="numi">11</td></tr><tr class="skippedodd"><td><a href="#m2"><b>labelsLanguageTestInPreferenceAccountsTab</b> (Regression) </a></td><td class="numi">1</td><td>1533661106797</td><td class="numi">10</td></tr><tr class="skippedodd"><td><a href="#m3"><b>labelsLanguageTestInPreferenceAdvancedTab</b> (Regression) </a></td><td class="numi">1</td><td>1533661106649</td><td class="numi">12</td></tr><tr class="skippedodd"><td><a href="#m4"><b>labelsLanguageTestInPreferenceAutoRulesTab</b> (Regression) </a></td><td class="numi">1</td><td>1533661106944</td><td class="numi">11</td></tr><tr class="skippedodd"><td><a href="#m5"><b>labelsLanguageTestInPreferenceCalendarGeneralTab</b> (Regression) </a></td><td class="numi">1</td><td>1533661107368</td><td class="numi">11</td></tr><tr class="skippedodd"><td><a href="#m6"><b>labelsLanguageTestInPreferenceDataUsageTab</b> (Regression) </a></td><td class="numi">1</td><td>1533661107297</td><td class="numi">9</td></tr><tr class="skippedodd"><td><a href="#m7"><b>labelsLanguageTestInPreferenceGeneralTab</b> (Regression) </a></td><td class="numi">1</td><td>1533661106572</td><td class="numi">11</td></tr><tr class="skippedodd"><td><a href="#m8"><b>labelsLanguageTestInPreferenceHighlightingTab</b> (Regression) </a></td><td class="numi">1</td><td>1533661107160</td><td class="numi">8</td></tr><tr class="skippedodd"><td><a href="#m9"><b>labelsLanguageTestInPreferenceImageRulesTab</b> (Regression) </a></td><td class="numi">1</td><td>1533661107228</td><td class="numi">9</td></tr><tr class="skippedodd"><td><a href="#m10"><b>labelsLanguageTestInPreferenceMessageFilterTab</b> (Regression) </a></td><td class="numi">1</td><td>1533661107015</td><td class="numi">10</td></tr><tr class="skippedodd"><td><a href="#m11"><b>labelsLanguageTestInPreferenceMobileGeneralTab</b> (Regression) </a></td><td class="numi">1</td><td>1533661107439</td><td class="numi">9</td></tr><tr class="skippedodd"><td><a href="#m12"><b>labelsLanguageTestInPreferencePGPKeysTab</b> (Regression) </a></td><td class="numi">1</td><td>1533661107579</td><td class="numi">10</td></tr><tr class="skippedodd"><td><a href="#m13"><b>labelsLanguageTestInPreferencePopImapTab</b> (Regression) </a></td><td class="numi">1</td><td>1533661107509</td><td class="numi">8</td></tr><tr class="skippedodd"><td><a href="#m14"><b>labelsLanguageTestInPreferenceSignaturesTab</b> (Regression) </a></td><td class="numi">1</td><td>1533661107085</td><td class="numi">9</td></tr><tr class="skippedodd"><td><a href="#m15"><b>labelsLanguageTestInPreferenceSpamTab</b> (Regression) </a></td><td class="numi">1</td><td>1533661106873</td><td class="numi">11</td></tr><tr class="skippedodd"><td><a href="#m16"><b>verifyBriefCaseSectionLabels</b> (Regression) ("This is webmail BriefCase Page Section Verification method")</a></td><td class="numi">1</td><td>1533661105482</td><td class="numi">16</td></tr><tr class="skippedodd"><td><a href="#m17"><b>verifyCalSectionEventCreationLabels</b> (Regression) ("This is webmail CalendarPage Section Verification method and this is depends on verifyCalSectionLabels")</a></td><td class="numi">1</td><td>1533661105753</td><td class="numi">14</td></tr><tr class="skippedodd"><td><a href="#m18"><b>verifyCalSectionLabels</b> (Regression) ("This is webmail CalendarPage Section Verification method")</a></td><td class="numi">1</td><td>1533661105667</td><td class="numi">13</td></tr><tr class="skippedodd"><td><a href="#m19"><b>verifyCalSectionRepeatEventCreationLabels</b> (Regression) ("This is webmail CalendarPage Section Verification method")</a></td><td class="numi">1</td><td>1533661105839</td><td class="numi">13</td></tr><tr class="skippedodd"><td><a href="#m20"><b>verifyContactSectionLabels</b> (Regression) ("This is Conatct Page Section Verification method")</a></td><td class="numi">1</td><td>1533661106113</td><td class="numi">14</td></tr><tr class="skippedodd"><td><a href="#m21"><b>verifyCreateAddressBookSectionLabels</b> (Regression) ("This is Create New AddressBook Page Section Verification method")</a></td><td class="numi">1</td><td>1533661106314</td><td class="numi">15</td></tr><tr class="skippedodd"><td><a href="#m22"><b>verifyCreateContactSectionLabels</b> (Regression) ("This is Create Contact Page Section Verification method")</a></td><td class="numi">1</td><td>1533661106200</td><td class="numi">41</td></tr><tr class="skippedodd"><td><a href="#m23"><b>verifyForgotPageSectionLabels</b> (Regression) ("This is Forgot Section Verification method")</a></td><td class="numi">1</td><td>1533661107797</td><td class="numi">12</td></tr><tr class="skippedodd"><td><a href="#m24"><b>verifyLoginPageMessageLabels</b> (Regression) ("This is Login Section Verification method")</a></td><td class="numi">1</td><td>1533661107724</td><td class="numi">9</td></tr><tr class="skippedodd"><td><a href="#m25"><b>verifyMailSectionLabels</b> (Regression) ("This is webmail HomePage Section Verification method")</a></td><td class="numi">1</td><td>1533661105567</td><td class="numi">17</td></tr><tr class="skippedodd"><td><a href="#m26"><b>verifyNewGroupSectionLabels</b> (Regression) ("This is New Create Group Page Section Verification method")</a></td><td class="numi">1</td><td>1533661106484</td><td class="numi">12</td></tr><tr class="skippedodd"><td><a href="#m27"><b>verifySocialSectionLabels</b> (Regression) ("This is webmail Socail Page Section Verification method")</a></td><td class="numi">1</td><td>1533661105382</td><td class="numi">20</td></tr><tr class="skippedodd"><td><a href="#m28"><b>verifySubscribeAddressBookSectionLabels</b> (Regression) ("This is Subscribe AddressBook Page Section Verification method")</a></td><td class="numi">1</td><td>1533661106404</td><td class="numi">14</td></tr><tr class="skippedodd"><td><a href="#m29"><b>verifyTaskCreationpageSectionLabels</b> (Regression) ("This is Task Page Section Verification method")</a></td><td class="numi">1</td><td>1533661106025</td><td class="numi">14</td></tr><tr class="skippedodd"><td><a href="#m30"><b>verifyTaskpageSectionLabels</b> (Regression) ("This is Task Page Section Verification method")</a></td><td class="numi">1</td><td>1533661105931</td><td class="numi">22</td></tr><tr class="skippedodd"><td><a href="#m31"><b>verifylougtnloginSectionLabels</b> (Regression) ("This is Logout Section Verification method")</a></td><td class="numi">1</td><td>1533661107653</td><td class="numi">9</td></tr>
+<tr><th colspan="4">WebMailHostopiaRegressionTest &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.webmailhostopia.tests.WebMailHostpiaRegressionTests</td><td><a href="#m32"><b>webMailLoginTest</b> (Regression) ("This is webmail login test with valid username and password")</a></td><td class="numi">1</td><td>1533660999824</td><td class="numi">105211</td></tr>
+</table>
+<h1>WebMailHostopiaRegressionTest</h1>
+<h2 id="m1">com.webmailhostopia.tests.WebMailHostpiaRegressionTests:verifyForgotPageSectionLabels</h2>
+<div style="padding-left:3em">
+<p>Skipped test case : verifyForgotPageSectionLabels</p>
+com.webmailhostopia.tests.WebMailHostpiaRegressionTests.verifyForgotPageSectionLabels(WebMailHostpiaRegressionTests.java:565)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">com.webmailhostopia.tests.WebMailHostpiaRegressionTests:verifylougtnloginSectionLabels</h2>
+<div style="padding-left:3em">
+<p>Skipped test case : verifylougtnloginSectionLabels</p>
+com.webmailhostopia.tests.WebMailHostpiaRegressionTests.verifylougtnloginSectionLabels(WebMailHostpiaRegressionTests.java:536)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">com.webmailhostopia.tests.WebMailHostpiaRegressionTests:verifyCreateContactSectionLabels</h2>
+<div style="padding-left:3em">
+<p>Skipped test case : verifyCreateContactSectionLabels</p>
+com.webmailhostopia.tests.WebMailHostpiaRegressionTests.verifyCreateContactSectionLabels(WebMailHostpiaRegressionTests.java:242)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">com.webmailhostopia.tests.WebMailHostpiaRegressionTests:verifyCalSectionLabels</h2>
+<div style="padding-left:3em">
+<p>Skipped test case : verifyCalSectionLabels</p>
+com.webmailhostopia.tests.WebMailHostpiaRegressionTests.verifyCalSectionLabels(WebMailHostpiaRegressionTests.java:145)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">com.webmailhostopia.tests.WebMailHostpiaRegressionTests:verifyBriefCaseSectionLabels</h2>
+<div style="padding-left:3em">
+<p>Skipped test case : verifyBriefCaseSectionLabels</p>
+com.webmailhostopia.tests.WebMailHostpiaRegressionTests.verifyBriefCaseSectionLabels(WebMailHostpiaRegressionTests.java:111)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">com.webmailhostopia.tests.WebMailHostpiaRegressionTests:labelsLanguageTestInPreferenceMessageFilterTab</h2>
+<div style="padding-left:3em">
+<p>Skipped test case : labelsLanguageTestInPreferenceMessageFilterTab</p>
+com.webmailhostopia.tests.WebMailHostpiaRegressionTests.labelsLanguageTestInPreferenceMessageFilterTab(WebMailHostpiaRegressionTests.java:398)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">com.webmailhostopia.tests.WebMailHostpiaRegressionTests:labelsLanguageTestInPreferenceACcountSecurityTab</h2>
+<div style="padding-left:3em">
+<p>Skipped test case : labelsLanguageTestInPreferenceACcountSecurityTab</p>
+com.webmailhostopia.tests.WebMailHostpiaRegressionTests.labelsLanguageTestInPreferenceACcountSecurityTab(WebMailHostpiaRegressionTests.java:336)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">com.webmailhostopia.tests.WebMailHostpiaRegressionTests:verifyCreateAddressBookSectionLabels</h2>
+<div style="padding-left:3em">
+<p>Skipped test case : verifyCreateAddressBookSectionLabels</p>
+com.webmailhostopia.tests.WebMailHostpiaRegressionTests.verifyCreateAddressBookSectionLabels(WebMailHostpiaRegressionTests.java:258)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">com.webmailhostopia.tests.WebMailHostpiaRegressionTests:verifyMailSectionLabels</h2>
+<div style="padding-left:3em">
+<p>Skipped test case : verifyMailSectionLabels</p>
+com.webmailhostopia.tests.WebMailHostpiaRegressionTests.verifyMailSectionLabels(WebMailHostpiaRegressionTests.java:127)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">com.webmailhostopia.tests.WebMailHostpiaRegressionTests:verifySubscribeAddressBookSectionLabels</h2>
+<div style="padding-left:3em">
+<p>Skipped test case : verifySubscribeAddressBookSectionLabels</p>
+com.webmailhostopia.tests.WebMailHostpiaRegressionTests.verifySubscribeAddressBookSectionLabels(WebMailHostpiaRegressionTests.java:273)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">com.webmailhostopia.tests.WebMailHostpiaRegressionTests:labelsLanguageTestInPreferenceAutoRulesTab</h2>
+<div style="padding-left:3em">
+<p>Skipped test case : labelsLanguageTestInPreferenceAutoRulesTab</p>
+com.webmailhostopia.tests.WebMailHostpiaRegressionTests.labelsLanguageTestInPreferenceAutoRulesTab(WebMailHostpiaRegressionTests.java:382)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">com.webmailhostopia.tests.WebMailHostpiaRegressionTests:labelsLanguageTestInPreferenceMobileGeneralTab</h2>
+<div style="padding-left:3em">
+<p>Skipped test case : labelsLanguageTestInPreferenceMobileGeneralTab</p>
+com.webmailhostopia.tests.WebMailHostpiaRegressionTests.labelsLanguageTestInPreferenceMobileGeneralTab(WebMailHostpiaRegressionTests.java:490)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">com.webmailhostopia.tests.WebMailHostpiaRegressionTests:labelsLanguageTestInPreferencePopImapTab</h2>
+<div style="padding-left:3em">
+<p>Skipped test case : labelsLanguageTestInPreferenceMobileGeneralTab</p>
+com.webmailhostopia.tests.WebMailHostpiaRegressionTests.labelsLanguageTestInPreferencePopImapTab(WebMailHostpiaRegressionTests.java:505)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">com.webmailhostopia.tests.WebMailHostpiaRegressionTests:verifyTaskCreationpageSectionLabels</h2>
+<div style="padding-left:3em">
+<p>Skipped test case : verifyTaskCreationpageSectionLabels</p>
+com.webmailhostopia.tests.WebMailHostpiaRegressionTests.verifyTaskCreationpageSectionLabels(WebMailHostpiaRegressionTests.java:209)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">com.webmailhostopia.tests.WebMailHostpiaRegressionTests:verifyCalSectionRepeatEventCreationLabels</h2>
+<div style="padding-left:3em">
+<p>Skipped test case : verifyCalSectionRepeatEventCreationLabels</p>
+com.webmailhostopia.tests.WebMailHostpiaRegressionTests.verifyCalSectionRepeatEventCreationLabels(WebMailHostpiaRegressionTests.java:176)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">com.webmailhostopia.tests.WebMailHostpiaRegressionTests:labelsLanguageTestInPreferenceGeneralTab</h2>
+<div style="padding-left:3em">
+<p>Skipped test case : labelsLanguageTestInPreferenceGeneralTab</p>
+com.webmailhostopia.tests.WebMailHostpiaRegressionTests.labelsLanguageTestInPreferenceGeneralTab(WebMailHostpiaRegressionTests.java:304)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">com.webmailhostopia.tests.WebMailHostpiaRegressionTests:verifyTaskpageSectionLabels</h2>
+<div style="padding-left:3em">
+<p>Skipped test case : verifyTaskpageSectionLabels</p>
+com.webmailhostopia.tests.WebMailHostpiaRegressionTests.verifyTaskpageSectionLabels(WebMailHostpiaRegressionTests.java:193)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">com.webmailhostopia.tests.WebMailHostpiaRegressionTests:labelsLanguageTestInPreferenceSignaturesTab</h2>
+<div style="padding-left:3em">
+<p>Skipped test case : labelsLanguageTestInPreferenceSignaturesTab</p>
+com.webmailhostopia.tests.WebMailHostpiaRegressionTests.labelsLanguageTestInPreferenceSignaturesTab(WebMailHostpiaRegressionTests.java:414)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">com.webmailhostopia.tests.WebMailHostpiaRegressionTests:verifyContactSectionLabels</h2>
+<div style="padding-left:3em">
+<p>Skipped test case : verifyContactSectionLabels</p>
+com.webmailhostopia.tests.WebMailHostpiaRegressionTests.verifyContactSectionLabels(WebMailHostpiaRegressionTests.java:226)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">com.webmailhostopia.tests.WebMailHostpiaRegressionTests:labelsLanguageTestInPreferencePGPKeysTab</h2>
+<div style="padding-left:3em">
+<p>Skipped test case : labelsLanguageTestInPreferenceMobileGeneralTab</p>
+com.webmailhostopia.tests.WebMailHostpiaRegressionTests.labelsLanguageTestInPreferencePGPKeysTab(WebMailHostpiaRegressionTests.java:520)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">com.webmailhostopia.tests.WebMailHostpiaRegressionTests:labelsLanguageTestInPreferenceSpamTab</h2>
+<div style="padding-left:3em">
+<p>Skipped test case : labelsLanguageTestInPreferenceSpamTab</p>
+com.webmailhostopia.tests.WebMailHostpiaRegressionTests.labelsLanguageTestInPreferenceSpamTab(WebMailHostpiaRegressionTests.java:367)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m22">com.webmailhostopia.tests.WebMailHostpiaRegressionTests:verifyNewGroupSectionLabels</h2>
+<div style="padding-left:3em">
+<p>Skipped test case : verifyNewGroupSectionLabels</p>
+com.webmailhostopia.tests.WebMailHostpiaRegressionTests.verifyNewGroupSectionLabels(WebMailHostpiaRegressionTests.java:288)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m23">com.webmailhostopia.tests.WebMailHostpiaRegressionTests:labelsLanguageTestInPreferenceImageRulesTab</h2>
+<div style="padding-left:3em">
+<p>Skipped test case : labelsLanguageTestInPreferenceImageRulesTab</p>
+com.webmailhostopia.tests.WebMailHostpiaRegressionTests.labelsLanguageTestInPreferenceImageRulesTab(WebMailHostpiaRegressionTests.java:444)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m24">com.webmailhostopia.tests.WebMailHostpiaRegressionTests:verifySocialSectionLabels</h2>
+<div style="padding-left:3em">
+<p>Skipped test case :verifySocialSectionLabels</p>
+com.webmailhostopia.tests.WebMailHostpiaRegressionTests.verifySocialSectionLabels(WebMailHostpiaRegressionTests.java:95)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m25">com.webmailhostopia.tests.WebMailHostpiaRegressionTests:labelsLanguageTestInPreferenceDataUsageTab</h2>
+<div style="padding-left:3em">
+<p>Skipped test case : labelsLanguageTestInPreferenceDataUsageTab</p>
+com.webmailhostopia.tests.WebMailHostpiaRegressionTests.labelsLanguageTestInPreferenceDataUsageTab(WebMailHostpiaRegressionTests.java:460)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m26">com.webmailhostopia.tests.WebMailHostpiaRegressionTests:labelsLanguageTestInPreferenceCalendarGeneralTab</h2>
+<div style="padding-left:3em">
+<p>Skipped test case : labelsLanguageTestInPreferenceCalendarGeneralTab</p>
+com.webmailhostopia.tests.WebMailHostpiaRegressionTests.labelsLanguageTestInPreferenceCalendarGeneralTab(WebMailHostpiaRegressionTests.java:475)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m27">com.webmailhostopia.tests.WebMailHostpiaRegressionTests:labelsLanguageTestInPreferenceHighlightingTab</h2>
+<div style="padding-left:3em">
+<p>Skipped test case : labelsLanguageTestInPreferenceHighlightingTab</p>
+com.webmailhostopia.tests.WebMailHostpiaRegressionTests.labelsLanguageTestInPreferenceHighlightingTab(WebMailHostpiaRegressionTests.java:429)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m28">com.webmailhostopia.tests.WebMailHostpiaRegressionTests:verifyLoginPageMessageLabels</h2>
+<div style="padding-left:3em">
+<p>Skipped test case : verifyLoginPageMessageLabels</p>
+com.webmailhostopia.tests.WebMailHostpiaRegressionTests.verifyLoginPageMessageLabels(WebMailHostpiaRegressionTests.java:551)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m29">com.webmailhostopia.tests.WebMailHostpiaRegressionTests:labelsLanguageTestInPreferenceAccountsTab</h2>
+<div style="padding-left:3em">
+<p>Skipped test case : labelsLanguageTestInPreferenceAccountsTab</p>
+com.webmailhostopia.tests.WebMailHostpiaRegressionTests.labelsLanguageTestInPreferenceAccountsTab(WebMailHostpiaRegressionTests.java:352)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m30">com.webmailhostopia.tests.WebMailHostpiaRegressionTests:verifyCalSectionEventCreationLabels</h2>
+<div style="padding-left:3em">
+<p>Skipped test case : verifyCalSectionEventCreationLabels</p>
+com.webmailhostopia.tests.WebMailHostpiaRegressionTests.verifyCalSectionEventCreationLabels(WebMailHostpiaRegressionTests.java:161)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m31">com.webmailhostopia.tests.WebMailHostpiaRegressionTests:labelsLanguageTestInPreferenceAdvancedTab</h2>
+<div style="padding-left:3em">
+<p>Skipped test case : labelsLanguageTestInPreferenceAdvancedTab</p>
+com.webmailhostopia.tests.WebMailHostpiaRegressionTests.labelsLanguageTestInPreferenceAdvancedTab(WebMailHostpiaRegressionTests.java:320)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m32">com.webmailhostopia.tests.WebMailHostpiaRegressionTests:webMailLoginTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.webmailhostopia.tests.WebMailHostpiaRegressionTests">
+        <methods>
+          <include name="webMailLoginTest"/>
+          <include name="verifyTaskpageSectionLabels"/>
+          <include name="verifyForgotPageSectionLabels"/>
+          <include name="labelsLanguageTestInPreferenceCalendarGeneralTab"/>
+          <include name="labelsLanguageTestInPreferenceImageRulesTab"/>
+          <include name="labelsLanguageTestInPreferenceSpamTab"/>
+          <include name="setup"/>
+          <include name="labelsLanguageTestInPreferenceAutoRulesTab"/>
+          <include name="labelsLanguageTestInPreferenceDataUsageTab"/>
+          <include name="verifylougtnloginSectionLabels"/>
+          <include name="verifySubscribeAddressBookSectionLabels"/>
+          <include name="verifyLoginPageMessageLabels"/>
+          <include name="verifyMailSectionLabels"/>
+          <include name="tearDown"/>
+          <include name="labelsLanguageTestInPreferenceAccountsTab"/>
+          <include name="verifyTaskCreationpageSectionLabels"/>
+          <include name="labelsLanguageTestInPreferenceGeneralTab"/>
+          <include name="labelsLanguageTestInPreferenceSignaturesTab"/>
+          <include name="labelsLanguageTestInPreferenceHighlightingTab"/>
+          <include name="verifyCalSectionEventCreationLabels"/>
+          <include name="verifyContactSectionLabels"/>
+          <include name="verifySocialSectionLabels"/>
+          <include name="verifyBriefCaseSectionLabels"/>
+          <include name="labelsLanguageTestInPreferenceACcountSecurityTab"/>
+          <include name="verifyNewGroupSectionLabels"/>
+          <include name="labelsLanguageTestInPreferenceMessageFilterTab"/>
+          <include name="verifyCreateContactSectionLabels"/>
+          <include name="verifyCalSectionLabels"/>
+          <include name="verifyCreateAddressBookSectionLabels"/>
+          <include name="verifyCalSectionRepeatEventCreationLabels"/>
+          <include name="labelsLanguageTestInPreferenceAdvancedTab"/>
+          <include name="labelsLanguageTestInPreferenceMobileGeneralTab"/>
+        </methods>
+      </class> <!-- com.webmailhostopia.tests.WebMailHostpiaRegressionTests -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
